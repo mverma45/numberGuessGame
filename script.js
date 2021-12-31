@@ -10,11 +10,22 @@ return randomNum;
 
 }
 
-const compareGuesses = (humanGuess, computerGuess, secretGuess) => {
+const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
  function difference (humanGuess, computerGuess) {
-
+  return Math.abs(humanGuess - computerGuess);
  } 
 
- console.log(difference(humanGuess - computerGuess));
+ console.log(difference(humanGuess, computerGuess));
 
+if (humanGuess > computerGuess){
+  return true;
+} else 
+return false;
+}
+
+const updateScore = (human, computer) {
+if(humanGuess == true){
+  human ++;
+} else
+computer ++;
 }
