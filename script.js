@@ -14,7 +14,7 @@ const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
  function difference (humanGuess, computerGuess) {
   return Math.abs(humanGuess - computerGuess);
  } 
-
+git
  console.log(difference(humanGuess, computerGuess));
 
 if (humanGuess > computerGuess){
@@ -23,9 +23,12 @@ if (humanGuess > computerGuess){
 return false;
 }
 
-const updateScore = (human, computer) {
-if(humanGuess == true){
+const updateScore = (human, computer) 
+if(human == true){
   human ++;
 } else
 computer ++;
-}
+
+
+const advanceRound = 
+  currentRoundNumber ++;
