@@ -23,9 +23,12 @@ if (humanGuess > computerGuess){
 return false;
 }
 
-const updateScore = (human, computer) {
-if(humanGuess == true){
+const updateScore = (human, computer) 
+if(human == true){
   human ++;
 } else
 computer ++;
-}
+
+
+const advanceRound = 
+  currentRoundNumber ++;
