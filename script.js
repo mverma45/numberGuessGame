@@ -14,7 +14,7 @@ const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
  function difference (humanGuess, computerGuess) {
   return Math.abs(humanGuess - computerGuess);
  } 
-
+git
  console.log(difference(humanGuess, computerGuess));
 
 if (humanGuess > computerGuess){
